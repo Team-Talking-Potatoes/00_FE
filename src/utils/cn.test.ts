@@ -38,5 +38,6 @@ describe('cn utility', () => {
     expect(result).toBe(
       'base-class conditional-true array-class-1 array-class-2',
     );
+    // 추가 테스트 필요
   });
 });

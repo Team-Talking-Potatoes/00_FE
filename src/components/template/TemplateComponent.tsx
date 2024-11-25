@@ -25,7 +25,7 @@ const TemplateComponent = () => {
   const handleClick = async () => {
     const res = await templateApi({ input: inputValue });
 
-    alert(`${res.data.input} ${res.data.value}`);
+    alert(`${res.data.input} ${res.data.value} ${process.env.NODE_ENV}`);
   };
 
   return (
